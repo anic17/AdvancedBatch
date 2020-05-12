@@ -25,7 +25,7 @@ When using that, you will be bypassing login.
 ### If this doesn't work...
 
 Try to change the input to ```&echo on```, to view the code, and next the password.
-This can be easily fixed, one example is Scripting Windows Host Console password that you cannot do any type of batch injection.
+This can be easily fixed, one example of a fixed program is Scripting Windows Host Console password that you cannot do any type of batch injection, and using a SHA512 hash to completely hide your password.
 
 
 This may not always work, but with a bad coded login program can bypass the security.

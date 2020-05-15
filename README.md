@@ -15,7 +15,7 @@ The answer is Yes
 It's really simple.
 Imagine you're using a login program in Batch and you are asking for a password.
 
-First, type in Command Prompt ```type [file to exploit].bat | findstr /c:"-"``` to find all GOTO labels at program.
+First, type in Command Prompt ```type [file to exploit].bat | findstr /c:"goto"``` to find all GOTO labels at program.
 
 When you have found the label that bypasses the password, type this code in login: ```& goto [vulnerableLabel]```
 When using that, you will be bypassing login.
